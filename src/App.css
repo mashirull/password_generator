@@ -1,0 +1,135 @@
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing : border-box;
+}
+
+body{
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.container{
+  background-color : rgb(39 45 54);
+  width : 40%;
+  height: auto;
+  margin : auto;
+  padding : 10px;
+  margin-top: 30px;
+}
+
+.password{
+  display : flex;
+  justify-content : space-between;
+  padding: 10px 0px;
+  border-bottom: 2px solid green;
+}
+
+.password p{
+  font-size : 20px;
+  color :white ;
+}
+
+.common_btn{
+  background-color :green;
+  border : none;
+  padding : 8px 10px ;
+  cursor :pointer;
+  border-radius : 8px ;
+  font-weight :bold;
+}
+
+input[type='range']::-webkit-slider-runnable-track{
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+
+.range{
+  width : 100%;
+  cursor : pointer;
+  margin : 5px 0px;
+  background-color: green;
+}
+
+.range_value{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color : white;
+  font-size : 18px;
+  margin : 12px 0px;
+}
+
+.input_container{
+  display : grid;
+  grid-template-columns : auto auto;
+}
+
+.checkbox{
+  padding : 8px 0px;
+  margin : 8px 0px;
+  color : white;
+}
+
+.checkbox input{
+  margin-right : 10px;
+}
+
+.generate_btn{
+  width:100%;
+  padding : 15px 0px;
+  color : white;
+}
+
+.strength_check{
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 8px 0px;
+  
+}
+
+.strength_check:last-child{
+  padding: 8px ;
+  border-radius: 8px;
+}
+
+.week{
+  color: white;
+  background-color: red;
+  padding: 5px ;
+  border-radius: 8px;
+}
+
+.poor{
+  color: white;
+  background-color: rgb(235, 70, 70);
+  padding: 5px ;
+  border-radius: 8px;
+}
+
+.Medium{
+  color: white;
+  background-color: darkgoldenrod;
+  padding: 5px ;
+  border-radius: 8px;
+}
+
+
+.Strong{
+  color: white;
+  background-color: lawngreen;
+  padding: 5px ;
+  border-radius: 8px;
+}
+
+.very_strong{
+  color: white;
+  background-color: darkgreen;
+  padding: 5px ;
+  border-radius: 8px;
+}
